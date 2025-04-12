@@ -1,5 +1,6 @@
 class Solution {
     public void moveZeroes(int[] nums) {
+        // k is pointer for position where we can insert next non zero element
         int k=0;
         for(int i=0;i<nums.length;i++)
         {
